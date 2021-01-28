@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DAF.AirplaneTrafficData</name>
+    </assembly>
+    <members>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.HttpClientFactoryExtension.CreateEndpointTask``1(DAF.AirplaneTrafficData.HelperClasses.HttpEndpointTypes)">
+            <summary>
+                CreateEndpointTask
+            </summary>
+            <param name="httpEndpointTypes">HttpEndpointTypes</param>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.HttpClientFactoryExtension.UpdateEndpointTask``1(DAF.AirplaneTrafficData.HelperClasses.HttpEndpointTypes)">
+            <summary>
+                UpdateEndpointTask
+            </summary>
+            <param name="httpEndpointTypes">HttpEndpointTypes</param>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.ServiceExtensions.AddCustomApiBehavior(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>Adds the custom API behavior.</summary>
+            <param name="services">The services.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.ServiceExtensions.AddSqlContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+                Adds the SQL context
+            </summary>
+            <param name="services">The services.</param>
+            <param name="configuration">The configuration.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.ServiceExtensions.AddCustomOptions(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                Configures custom options
+            </summary>
+            <param name="services">The services</param>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.ServiceExtensions.AddCustomCors(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+                Configures Cors
+            </summary>
+            <param name="services">The services</param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.ServiceExtensions.AddCustomHttpClient(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                Configures HttpClient
+            </summary>
+            <param name="services">The services</param>
+        </member>
+        <member name="M:DAF.AirplaneTrafficData.Extensions.ServiceExtensions.AddUnitOfWork(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                Configure unit of work
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>
